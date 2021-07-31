@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/backgrnd3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caveat_bold"
+        android:text="Nightcore App by Otaku Chamber"
+        android:textAlignment="center"
+        android:textColor="#FFFF00"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="390dp"
+        android:layout_height="575dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv">
+
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/permanent_marker"
+                android:text="Live Nightcore Radio"
+                android:textAlignment="center"
+                android:textColor="#FFFF00"
+                android:textSize="24sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                app:autoPlay="false"
+                app:enableLiveVideoUi="true"
+                app:showFullScreenButton="true"
+                app:showVideoCurrentTime="true" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/permanent_marker"
+                android:text="Video  1 "
+                android:textAlignment="center"
+
+
+                android:textColor="#FFFF00"
+                android:textSize="24sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_view1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                app:autoPlay="false"
+                app:showFullScreenButton="true"
+                app:showSeekBar="true"
+                app:showVideoCurrentTime="true"
+                app:showVideoDuration="true">
+
+            </com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/permanent_marker"
+                android:text="Video 2"
+                android:textAlignment="center"
+                android:textColor="#FFFF00"
+                android:textSize="24sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_view2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="8dp"
+                app:autoPlay="false"
+                app:showFullScreenButton="true" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/permanent_marker"
+                android:text="Video 3"
+                android:textAlignment="center"
+                android:textColor="#FFFF00"
+                android:textSize="24sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_view3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="8dp"
+                app:autoPlay="false"
+                app:showFullScreenButton="true" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/permanent_marker"
+                android:text="Video 4"
+                android:textAlignment="center"
+                android:textColor="#FFFF00"
+                android:textSize="23sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_view4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="8dp"
+                app:autoPlay="false"
+                app:showFullScreenButton="true" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/permanent_marker"
+                android:text="A Recent video from my own Channel(Otaku Chamber)"
+                android:textAlignment="center"
+                android:textColor="#FFFF00"
+                android:textSize="24sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_view5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="8dp"
+                app:autoPlay="false"
+                app:showFullScreenButton="true">
+
+            </com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView>
+
+            <LinearLayout
+                android:id="@+id/horlayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/chewy"
+                    android:padding="5dp"
+                    android:text="About Me"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/morevid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/chewy"
+                    android:padding="5dp"
+                    android:text="More Videos UwU"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/shareapp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/chewy"
+                    android:padding="5dp"
+                    android:text="Latest Version"
+
+                    android:textSize="10dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <!--   <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+           android:id="@+id/youtube_player_view"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+           app:videoId="WBInr32QqnE"
+           app:autoPlay="true"
+           android:padding="8dp"
+           app:showFullScreenButton="true" />
+
+       <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+           android:id="@+id/youtube_player_view1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+           app:videoId="Extj24k0gGM"
+           app:autoPlay="true"
+           android:padding="8dp"
+           app:showFullScreenButton="true" />
+
+       <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+           android:id="@+id/youtube_player_view2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+           app:videoId="mZc96GN9eg8"
+           app:autoPlay="true"
+           android:padding="8dp"
+           app:showFullScreenButton="true" />
+
+-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

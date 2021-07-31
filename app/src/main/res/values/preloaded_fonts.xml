@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/allan</item>
+        <item>@font/audiowide</item>
+        <item>@font/bangers</item>
+        <item>@font/boogaloo</item>
+        <item>@font/caveat_bold</item>
+        <item>@font/chewy</item>
+        <item>@font/permanent_marker</item>
+    </array>
+</resources>

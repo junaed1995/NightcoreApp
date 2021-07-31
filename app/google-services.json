@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "24105429025",
+    "firebase_url": "https://nightcoreapp2.firebaseio.com",
+    "project_id": "nightcoreapp2",
+    "storage_bucket": "nightcoreapp2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24105429025:android:d702a37476edd754279b60",
+        "android_client_info": {
+          "package_name": "com.something.nightcoreapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24105429025-pcrmq3e3on7n4v9o6967nbqu9vpsg53k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.something.nightcoreapp2",
+            "certificate_hash": "546e363bf0965000122e1ae06b24d2b65a9c3d68"
+          }
+        },
+        {
+          "client_id": "24105429025-2biridaipdftmnpsb3b9cnrb9k2nmhce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdnrTFdYIOwG_pWtasSoXT0XBMXwUC9mY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24105429025-2biridaipdftmnpsb3b9cnrb9k2nmhce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
